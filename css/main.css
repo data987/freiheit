@@ -1,0 +1,48 @@
+*, ul, .columns {
+	margin: 0;
+	padding: 0;
+}
+
+.U-right {
+	float: right;
+}
+
+.U-white {
+	color: white;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+}
+	ul li {
+		display: inline-block;
+		margin: 0 1em 0 0;
+	}
+
+.menu {
+	background-color: lightblue;
+	height: 201px;
+	padding: 2em;
+}
+
+.frase {
+	background-color: #1a1717;
+	height: 400px;
+	padding: 0 2rem 0 2rem;
+	position: relative;
+}
+	.frase p {
+		bottom: 0.5em;
+		font-size: 2.3em;
+		font-weight: 300;
+		line-height: 140%;
+		position: absolute;
+	}
+
+
+
