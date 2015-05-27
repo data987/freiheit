@@ -15,6 +15,10 @@
 	float: left;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -49,13 +53,29 @@ ul {
 	}
 
 .frase2 {
-	background-color: #1a1717;
+	background-color: #252121;
 	height: 202px;
-	padding: 0 2rem 0 2rem;
+	padding: 2em;
 	position: relative;
+	width: 100%;
 }
+
 
 .images {
 	max-width: 50%;
 }
+
+.facebook {
+	background-color: white;
+	height: 204px;
+	width: 50%;
+}
+
+.twitter {
+	background-color: #252121;
+	height: 204px;
+	width: 50%;
+}
+
+
 
