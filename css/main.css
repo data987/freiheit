@@ -11,6 +11,10 @@
 	color: white;
 }
 
+.float-left {
+	float: left;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -25,24 +29,33 @@ ul {
 	}
 
 .menu {
-	background-color: lightblue;
 	height: 201px;
 	padding: 2em;
 }
 
 .frase {
-	background-color: #1a1717;
+	background-color: #252121;
 	height: 400px;
-	padding: 0 2rem 0 2rem;
+	
 	position: relative;
 }
 	.frase p {
 		bottom: 0.5em;
-		font-size: 2.3em;
+		font-size: 2.4em;
 		font-weight: 300;
 		line-height: 140%;
+		padding: 0 3rem 0 2rem;
 		position: absolute;
 	}
 
+.frase2 {
+	background-color: #1a1717;
+	height: 202px;
+	padding: 0 2rem 0 2rem;
+	position: relative;
+}
 
+.images {
+	max-width: 50%;
+}
 
