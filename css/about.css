@@ -37,15 +37,25 @@ ul {
 	padding: 2em;
 }
 
+.caja2 {
+	background-color: white;
+	padding: 2em 3em 12.52rem 3em;
+}
+
+.facebook {
+	background-color: #252121;
+	height: 204px;
+	width: 50%;
+}
+
 .frase {
 	background-color: #252121;
 	height: 400px;
-	
 	position: relative;
 }
 	.frase p {
 		bottom: 0.5em;
-		font-size: 2.4em;
+		font-size: 1.5em;
 		font-weight: 200;
 		line-height: 140%;
 		padding: 0 3rem 0 2rem;
@@ -60,19 +70,33 @@ ul {
 	width: 100%;
 }
 
+	.frase2 p {
+		color: white;
+		font-size: 1.6em;
+	}
+
+		.frase2 a {
+			bottom: 2em;
+			color: white;
+			font-size: 1.2em;
+			position: absolute;
+		}
 
 .images {
 	max-width: 50%;
 }
 
-.facebook {
-	background-color: white;
-	height: 204px;
-	width: 50%;
+.services {
+	background-color: #252121;
+	color: white;
+	height: 400px;
+	padding: 2em 3em 0 3em;
+	position: relative;
 }
 
+
 .twitter {
-	background-color: #252121;
+	background-color: white;
 	height: 204px;
 	width: 50%;
 }
