@@ -33,47 +33,116 @@ ul {
 	}
 
 .menu {
+	background-color: white;
 	height: 201px;
 	padding: 2em;
 }
 
-.frase {
+	.menu a:hover {
+		color: #252121;
+	}
+
+.contact {
+	font-size: 1em;
+}
+
+.contact .email {
+	font-size: 1em;
+	line-height: 450%;
+}
+
+.box1 {
 	background-color: #252121;
 	height: 400px;
-	
 	position: relative;
 }
-	.frase p {
+	.box1 p {
 		bottom: 0.5em;
-		font-size: 2.4em;
+		font-size: 2em;
 		font-weight: 200;
 		line-height: 140%;
-		padding: 0 3rem 0 2rem;
+		padding: 0 3rem 1em 2rem;
 		position: absolute;
 	}
 
-.frase2 {
+.box2 {
 	background-color: #252121;
-	height: 202px;
+	height: 201px;
 	padding: 2em;
 	position: relative;
 	width: 100%;
 }
 
+	.box2 p {
+		color: white;
+		font-size: 1.6em;
+	}
+
+		.box2 a {
+			bottom: 2em;
+			color: white;
+			font-size: 1.2em;
+			position: absolute;
+		}
+
+.box3 {
+	background-color: white;
+	padding: 2em 3em 12.52rem 3em;
+}
+
+.box4 {
+	background-color: #252121;
+	height: 400px;
+	position: relative;
+}
+	.box4 p {
+		color: white;
+		font-size: 1.2em;
+		font-weight: 200;
+		line-height: 140%;
+		padding: 1.7em 3rem 0 2rem;
+	}
+
+.facebook {
+	background-color: white;
+	height: 202px;
+	width: 50%;
+}
 
 .images {
 	max-width: 50%;
 }
 
-.facebook {
+.next {
 	background-color: white;
-	height: 204px;
-	width: 50%;
+	height: 201px;
+	padding: 2em;
+	position: relative;
+}
+
+	.next a {
+		color: #252121;
+		font-size: 1.5rem;
+		font-weight: 300;
+		position: absolute;
+		
+	}
+
+	.next a:hover {
+		color: #3d928f;
+	}
+
+.services {
+	background-color: #252121;
+	color: white;
+	height: 400px;
+	padding: 2em 3em 0 3em;
+	position: relative;
 }
 
 .twitter {
 	background-color: #252121;
-	height: 204px;
+	height: 202px;
 	width: 50%;
 }
 
