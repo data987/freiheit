@@ -32,16 +32,6 @@ ul {
 		margin: 0 1em 0 0;
 	}
 
-.menu {
-	background-color: white;
-	height: 201px;
-	padding: 2em;
-}
-
-	.menu a:hover {
-		color: #252121;
-	}
-
 .contact {
 	font-size: 1em;
 }
@@ -49,6 +39,12 @@ ul {
 .contact .email {
 	font-size: 1em;
 	line-height: 450%;
+}
+
+.box-W {
+	background-color: white;
+	height: 201px;
+	padding: 2em;
 }
 
 .box1 {
@@ -65,6 +61,20 @@ ul {
 		position: absolute;
 	}
 
+	.box1 a {
+		color: white;
+		display: block;
+		font-size: 1.4rem;
+		padding: 1em 0 0 1.5em;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+		.box1 a:hover {
+			color: #64f2ee;
+		}
+
 .box2 {
 	background-color: #252121;
 	height: 201px;
@@ -78,12 +88,16 @@ ul {
 		font-size: 1.6em;
 	}
 
-		.box2 a {
-			bottom: 2em;
-			color: white;
-			font-size: 1.2em;
-			position: absolute;
-		}
+	.box2 a {
+		bottom: 2em;
+		color: white;
+		font-size: 1.2em;
+		position: absolute;
+	}
+
+		.box1 a:hover {
+			color: #64f2ee;
+		}	
 
 .box3 {
 	background-color: white;
@@ -109,9 +123,49 @@ ul {
 	width: 50%;
 }
 
+.face {
+	color: #252121;
+	display: block;
+	height: 100%;
+	line-height: 202px;
+	text-align: center;
+  	vertical-align: middle;
+}
+
 .images {
 	max-width: 50%;
 }
+
+.menu ul {
+	padding: 2em;
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+}
+
+	.menu ul li a{
+		color: #252121;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+	
+	.menu ul li .frei{
+		color: white;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+
+	.menu a:hover {
+		color: #3cb1c9;
+	}
+
+	.menu .frei:hover {
+		color: #3cb1c9;
+	}
 
 .next {
 	background-color: white;
@@ -144,6 +198,21 @@ ul {
 	background-color: #252121;
 	height: 202px;
 	width: 50%;
+}
+
+.twitter2 {
+	background-color: #252121;
+	height: 198px;
+	width: 50%;
+}
+
+.twit, .twit2 {
+	color: white;
+	height: 100%;
+	display: block;
+	text-align: center;
+	line-height: 202px;
+  	vertical-align: middle;
 }
 
 
