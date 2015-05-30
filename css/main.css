@@ -11,6 +11,10 @@
 	color: white;
 }
 
+.U-min-height {
+	min-height: 100%; 
+}
+
 .float-left {
 	float: left;
 }
@@ -32,8 +36,14 @@ ul {
 		margin: 0 1em 0 0;
 	}
 
+h3 {
+	color: white;
+	font-size: 1em;
+}
+
 .contact {
 	font-size: 1em;
+	display: block;
 }
 
 .contact .email {
@@ -41,8 +51,20 @@ ul {
 	line-height: 450%;
 }
 
+.contact2 {
+	font-size: 1em;
+	display: none;
+	text-align: center;
+}
+
+.contact2 .email {
+	font-size: 1em;
+	line-height: 450%;
+}
+
 .box-W {
 	background-color: white;
+	display: block;
 	height: 201px;
 	padding: 2em;
 }
@@ -190,9 +212,26 @@ ul {
 	background-color: #252121;
 	color: white;
 	height: 400px;
-	padding: 2em 3em 0 3em;
+	padding: 2em 1.5em 0 1.5em;
 	position: relative;
 }
+
+	.services ul {
+		
+		margin: 0 auto;
+		overflow: hidden;
+		width: 90%;
+	}
+
+	.services ul li {
+		display:block;
+		line-height: 140%;
+	}
+	.services .topic {
+		float: left;
+		margin: 0 0 0 10%;
+		width: 7em;
+	}
 
 .twitter {
 	background-color: #252121;
@@ -213,6 +252,49 @@ ul {
 	text-align: center;
 	line-height: 202px;
   	vertical-align: middle;
+}
+
+/****** iPad ******/
+@media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+	
+	.box1 {
+		height: 250px;
+	}
+
+		.box1 p {
+		bottom: 0;
+		font-size: 1.7em;
+		font-weight: 200;
+		line-height: 140%;
+		padding: 0 0 0 1rem;
+		position: absolute;
+	}
+
+	.box4 {
+		height: 300px;
+	}
+
+	.box-W {
+		display: none;
+	}
+
+	.contact {
+		display: none;
+	}
+
+	.contact2 {
+		display: block;
+	}
+
+	.menu ul li a{
+		color: white;
+	}
+
+	.services ul {
+		margin: 0 auto;
+		overflow: hidden;
+		width: 70%;
+	}
 }
 
 

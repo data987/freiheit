@@ -26,7 +26,7 @@
 .face:before {
 	content: "\ea8c";
 	font-family: 'icomoon';
-	font-size: 5em;
+	font-size: 3em;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -35,7 +35,7 @@
 .twit:before {
 	content: "\ea91";
 	font-family: 'icomoon';
-	font-size: 5em;
+	font-size: 2.5em;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -44,7 +44,7 @@
 .twit2:before {
 	content: "\ea91";
 	font-family: 'icomoon';
-	font-size: 5em;
+	font-size: 2.5em;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
