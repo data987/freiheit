@@ -36,6 +36,11 @@ ul {
 		margin: 0 1em 0 0;
 	}
 
+h2 {
+	color: #252121;
+	font-size: 2.2em;
+}
+
 h3 {
 	color: white;
 	font-size: 1em;
@@ -44,6 +49,7 @@ h3 {
 .contact {
 	font-size: 1em;
 	display: block;
+
 }
 
 .contact .email {
@@ -99,7 +105,7 @@ h3 {
 
 .box2 {
 	background-color: #252121;
-	height: 201px;
+	height: 202px;
 	padding: 2em;
 	position: relative;
 	width: 100%;
@@ -141,8 +147,8 @@ h3 {
 
 .facebook {
 	background-color: white;
-	height: 202px;
-	width: 50%;
+	height: 200px;
+	width: 100%;
 }
 
 .face {
@@ -156,6 +162,11 @@ h3 {
 
 .images {
 	max-width: 50%;
+}
+
+.info {
+	text-align: center;
+	width: 100%;	
 }
 
 .menu ul {
@@ -212,12 +223,11 @@ h3 {
 	background-color: #252121;
 	color: white;
 	height: 400px;
-	padding: 2em 1.5em 0 1.5em;
+	padding: 2em 1em 0 1em;
 	position: relative;
 }
 
 	.services ul {
-		
 		margin: 0 auto;
 		overflow: hidden;
 		width: 90%;
@@ -233,19 +243,17 @@ h3 {
 		width: 7em;
 	}
 
+.social {
+	display: none;
+}
+
 .twitter {
 	background-color: #252121;
-	height: 202px;
-	width: 50%;
+	height: 204px;
+	width: 100%;
 }
 
-.twitter2 {
-	background-color: #252121;
-	height: 198px;
-	width: 50%;
-}
-
-.twit, .twit2 {
+.twit {
 	color: white;
 	height: 100%;
 	display: block;
@@ -257,8 +265,13 @@ h3 {
 /****** iPad ******/
 @media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
 	
+	.U-display-none {
+		display: none;
+	}
+
 	.box1 {
-		height: 250px;
+		height: 270px;
+
 	}
 
 		.box1 p {
@@ -271,7 +284,8 @@ h3 {
 	}
 
 	.box4 {
-		height: 300px;
+		height: 100%;
+		padding: 0 0 1em 0;
 	}
 
 	.box-W {
@@ -290,10 +304,23 @@ h3 {
 		color: white;
 	}
 
+	.services {
+		height: 100%;
+		margin: 0 auto;
+		padding: 1em 0 1em 0;
+	}
 	.services ul {
 		margin: 0 auto;
 		overflow: hidden;
-		width: 70%;
+		width: 100%;
+	}
+
+	.social {
+		display: block;
+	}
+
+	.twitter2 {
+		height: 202px;
 	}
 }
 
