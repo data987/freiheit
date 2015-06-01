@@ -23,6 +23,7 @@
 	display: inline-block;
 }
 
+/**** Tags ****/
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
@@ -46,6 +47,8 @@ h3 {
 	color: white;
 	font-size: 1em;
 }
+
+/**** Boxes  ****/
 
 .box-W {
 	background-color: white;
@@ -124,6 +127,7 @@ h3 {
 		padding: 1.7em 3rem 0 2rem;
 	}
 
+/**** Color black | Hover in images ****/
 .color {
 	background-color: rgba(0, 0, 0, 0);
 	height: 100%;
@@ -135,6 +139,8 @@ h3 {
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
+
+/**** Contact ****/
 
 .contact {
 	font-size: 1em;
@@ -158,6 +164,8 @@ h3 {
 	line-height: 450%;
 }
 
+/**** Facebook ****/
+
 .facebook {
 	background-color: white;
 	height: 200px;
@@ -173,6 +181,7 @@ h3 {
   	vertical-align: middle;
 }
 
+/**** Hover on images animation ****/
 figure {
 	overflow: hidden;
 	position: relative;
@@ -210,6 +219,7 @@ figure {
 	width: 100%;	
 }
 
+/**** Menu ****/
 .menu .m2 {
 	padding: 2em;
 	position: absolute;
@@ -241,6 +251,8 @@ figure {
 		color: #3cb1c9;
 	}
 
+
+/**** Next button ****/
 .next {
 	background-color: white;
 	height: 201px;
@@ -260,10 +272,13 @@ figure {
 		color: #3d928f;
 	}
 
+/**** Hover menu in projects ****/
+
 .projects:hover .submenu {
 	display: block;
 }
 
+/**** Services | Photography.. ****/
 .services {
 	background-color: #252121;
 	color: white;
@@ -292,8 +307,9 @@ figure {
 	display: none;
 }
 
+/**** Text in images | index hover ****/
 span {
-	top: 2em;
+	top: 1em;
 	color: white;
 	font-size: 3rem;
 	left: 0.5em;
@@ -306,6 +322,7 @@ span {
 	z-index: 4;
 }
 
+/**** Submenu ****/
 .submenu {
 	display: none;
 	padding: 0.5em 0 0 0;
@@ -322,6 +339,7 @@ span {
 		font-weight: 400;
 	}
 
+/**** Twitter ****/
 .twitter {
 	background-color: #252121;
 	height: 204px;
@@ -406,12 +424,6 @@ span {
 
 	.twitter2 {
 		height: 202px;
-	}
-}
-
-@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-	span {
-		top: 0.1em;
 	}
 }
 
