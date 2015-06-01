@@ -98,13 +98,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/casco.jpg": {
+	"\/img\/cam.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 64537,
-		"inputAbbreviatedPath": "\/img\/casco.jpg",
-		"outputAbbreviatedPath": "\/img\/casco.jpg",
+		"initialSize": 54784,
+		"inputAbbreviatedPath": "\/img\/cam.jpg",
+		"outputAbbreviatedPath": "\/img\/cam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -208,6 +208,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/equip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104181,
+		"inputAbbreviatedPath": "\/img\/equip.jpg",
+		"outputAbbreviatedPath": "\/img\/equip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/estadisticas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -230,6 +241,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/grapes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190679,
+		"inputAbbreviatedPath": "\/img\/grapes.jpg",
+		"outputAbbreviatedPath": "\/img\/grapes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hombres.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -245,7 +267,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85043,
+		"initialSize": 128957,
 		"inputAbbreviatedPath": "\/img\/ipad.jpg",
 		"outputAbbreviatedPath": "\/img\/ipad.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -274,28 +296,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/leo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 132752,
-		"inputAbbreviatedPath": "\/img\/leo.jpg",
-		"outputAbbreviatedPath": "\/img\/leo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mujer.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 180532,
-		"inputAbbreviatedPath": "\/img\/mujer.jpg",
-		"outputAbbreviatedPath": "\/img\/mujer.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/partners.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -303,6 +303,28 @@
 		"initialSize": 153165,
 		"inputAbbreviatedPath": "\/img\/partners.jpg",
 		"outputAbbreviatedPath": "\/img\/partners.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/play.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91757,
+		"inputAbbreviatedPath": "\/img\/play.jpg",
+		"outputAbbreviatedPath": "\/img\/play.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 228104,
+		"inputAbbreviatedPath": "\/img\/sf.jpg",
+		"outputAbbreviatedPath": "\/img\/sf.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -362,13 +384,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/team5.jpg": {
+	"\/img\/work.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58377,
-		"inputAbbreviatedPath": "\/img\/team5.jpg",
-		"outputAbbreviatedPath": "\/img\/team5.jpg",
+		"initialSize": 7.15777e+06,
+		"inputAbbreviatedPath": "\/img\/work.jpg",
+		"outputAbbreviatedPath": "\/img\/work.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

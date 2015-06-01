@@ -26,6 +26,7 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
+	font-weight: 300;
 }
 
 ul {
@@ -44,28 +45,6 @@ h2 {
 h3 {
 	color: white;
 	font-size: 1em;
-}
-
-.contact {
-	font-size: 1em;
-	display: block;
-
-}
-
-.contact .email {
-	font-size: 1em;
-	line-height: 450%;
-}
-
-.contact2 {
-	font-size: 1em;
-	display: none;
-	text-align: center;
-}
-
-.contact2 .email {
-	font-size: 1em;
-	line-height: 450%;
 }
 
 .box-W {
@@ -145,6 +124,40 @@ h3 {
 		padding: 1.7em 3rem 0 2rem;
 	}
 
+.color {
+	background-color: rgba(0, 0, 0, 0);
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.contact {
+	font-size: 1em;
+	display: block;
+
+}
+
+.contact .email {
+	font-size: 1em;
+	line-height: 450%;
+}
+
+.contact2 {
+	font-size: 1em;
+	display: none;
+	text-align: center;
+}
+
+.contact2 .email {
+	font-size: 1em;
+	line-height: 450%;
+}
+
 .facebook {
 	background-color: white;
 	height: 200px;
@@ -160,6 +173,34 @@ h3 {
   	vertical-align: middle;
 }
 
+figure {
+	overflow: hidden;
+	position: relative;
+}
+
+	figure img {
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+
+	.select:hover img {
+		-webkit-transform: scale(1.1,1.1);
+		-moz-transform: scale(1.1,1.1);
+		-o-transform: scale(1.1,1.1);
+		transform: scale(1.1,1.1);
+	}
+
+	.select:hover .color {
+		background-color: rgba(0, 0, 0, 0.7);
+		opacity: 1;
+	}
+
+	.select:hover .color span {
+		opacity: 1;
+	}
+
 .images {
 	max-width: 50%;
 }
@@ -169,7 +210,7 @@ h3 {
 	width: 100%;	
 }
 
-.menu ul {
+.menu .m2 {
 	padding: 2em;
 	position: absolute;
 	width: 100%;
@@ -219,6 +260,10 @@ h3 {
 		color: #3d928f;
 	}
 
+.projects:hover .submenu {
+	display: block;
+}
+
 .services {
 	background-color: #252121;
 	color: white;
@@ -247,6 +292,36 @@ h3 {
 	display: none;
 }
 
+span {
+	top: 2em;
+	color: white;
+	font-size: 3rem;
+	left: 0.5em;
+	opacity: 0;
+	position: absolute;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: 4;
+}
+
+.submenu {
+	display: none;
+	padding: 0.5em 0 0 0;
+	position: absolute;
+	z-index: 3;
+}
+
+	.submenu li{
+		display: block;
+		margin: 0.1em 0 0.3em -1em;	
+	}
+
+	.submenu ul li a {
+		font-weight: 400;
+	}
+
 .twitter {
 	background-color: #252121;
 	height: 204px;
@@ -255,10 +330,10 @@ h3 {
 
 .twit {
 	color: white;
-	height: 100%;
 	display: block;
-	text-align: center;
+	height: 100%;
 	line-height: 202px;
+  	text-align: center;
   	vertical-align: middle;
 }
 
@@ -319,8 +394,24 @@ h3 {
 		display: block;
 	}
 
+	.submenu {
+		right: 1em;
+		display: block;
+	}
+
+	.submenu li{
+		display: inline-block;
+		margin: 0.1em 1.5em 0 -1em;	
+	}
+
 	.twitter2 {
 		height: 202px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+	span {
+		top: 0.1em;
 	}
 }
 
